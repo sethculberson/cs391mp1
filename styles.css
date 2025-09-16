@@ -66,6 +66,62 @@ footer{
     padding:10px;
     text-align: center;
 }
+.negative {
+    color: red;
+}
+
+.calculator{
+    margin: calc(20px + 2vw);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #202020;
+    background-color: #a24212;
+}
+.inputs{
+    padding: calc(4px + 0.2vw);
+}
+input{
+    font-size: calc(8px + 2vw);
+    text-align: right;
+    padding: calc(2px + 2vw);
+    background-color: #D3D3D3;
+    margin: calc(2px + 0.4vw);
+}
+.buttons{
+    margin: 4px;
+    padding: 8px;
+    background-color: #333333;
+    border: 2px #202020 solid;
+}
+button{
+    font-size: calc(4px + 2vw);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #202020;
+    color: #a24212;
+}
+
+#output{
+    padding: calc(4px + 1vw);
+    margin: calc(2px + 0.2vw);
+}
+.project-links{
+    padding: calc(4px + 0.2vw);
+    list-style: none;
+    text-align: center;
+}
+.project-links li{
+    margin: calc(16px + 0.2vw);
+}
+.project-links a{
+    color:#202020;
+    text-decoration: none;
+    font-size: calc(5px + 1.4vw);
+    border: 2px #202020 solid;
+    padding: calc(2px + 0.2vw)
+}
 
 @media (max-width: 750px){
     header{
@@ -88,7 +144,7 @@ footer{
         display: block;
         padding: 4px;
         margin: 6px;
-        border-radius: 0px;
+        border-radius: 12px;
     }
     nav a {
         font-size: calc(3px + 2.0vw);
