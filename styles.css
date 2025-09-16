@@ -56,7 +56,8 @@ main {
 }
 img{
     display: inline;
-    max-width: 40%;
+    max-height: 35vw;
+    max-width: 50vh;
     border-radius: 30px;
     margin: calc(12px + 0.2vw);
 }
@@ -97,7 +98,12 @@ footer{
         max-width: 100%;
         padding: 10px 40px 10px 40px;
         margin: 4px;
-        height: 100vh;
         text-align: center;
+    }
+    img{
+        padding: 20px;
+        margin: auto;
+        display: block;
+        max-height: 50vh;
     }
 }
