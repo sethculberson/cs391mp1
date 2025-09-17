@@ -59,7 +59,14 @@ function power(){
         output.innerHTML = "Please enter numbers in both inputs"
     }
     else {
-        let res = parseInt(firstInput.value) + parseInt(secondInput.value)
+        let res = 1
+        for (let i = 0; i < parseInt(secondInput.value); i=i+1){
+                res = res * firstInput.value
+        }
+        if (parseInt(secondInput.value) < 0) {
+            res = 1 / res
+        }
+
         output.innerHTML = String(res)
         firstInput.value = ""
         secondInput.value = ""
