@@ -14,6 +14,11 @@ header{
     font-size: calc(4px + 2vw);
     padding: calc(4px + 2vw);
 }
+#subtitle{
+    margin: 0;
+    padding: 0;
+    font-size: calc(12px + 1vw);
+}
 .container{
     display: flex;
 }
@@ -124,6 +129,21 @@ button{
     font-size: calc(10px + 1.8vw);
     border: 2px #202020 solid;
     padding: calc(2px + 0.2vw)
+}
+.category-head{
+    font-size: calc(8px + 2vw);
+    margin: calc(4px + 1vw);
+    padding: calc(2px + 0.4vw)
+}
+h3{
+    font-size: calc(5px + 2vw);
+    margin: calc(4px + 1vw);
+    padding: calc(2px + 0.4vw);
+}
+p{
+    font-size: calc(10px + 1vw);
+    padding: calc(4px + 1.2vw);
+    margin: calc(4px + 0.8vw);
 }
 /* for mobile/smaller devices! */
 @media (max-width: 750px){
