@@ -60,7 +60,8 @@ function power(){
     }
     else {
         let res = 1
-        for (let i = 0; i < parseInt(secondInput.value); i=i+1){
+        // Math.abs gives a positive value if there's a negative exponent
+        for (let i = 0; i < Math.abs(parseInt(secondInput.value)); i=i+1){
                 res = res * firstInput.value
         }
         if (parseInt(secondInput.value) < 0) {
