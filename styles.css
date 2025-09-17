@@ -69,10 +69,11 @@ img{
     border-radius: 30px;
     margin: calc(12px + 0.2vw);
 }
-footer{
-    margin: 12px;
-    padding:10px;
+footer p{
+    margin: calc(6px + 1vw);
+    padding: calc(2px + 0.2vw);
     text-align: center;
+    font-size: calc(4px + 1vw)
 }
 .negative {
     color: red;
